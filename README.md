@@ -56,6 +56,7 @@ Full index with descriptions: [INDEX.md](INDEX.md)
 | [stack/project-structure.md](stack/project-structure.md)   | Folder layout for Next.js SaaS + worker (`app/`, `worker/`, `lib/`) |
 | [stack/frontend-libraries.md](stack/frontend-libraries.md) | Framer Motion, Remotion, shadcn/ui, react-hook-form, Recharts       |
 | [stack/dodo-payments.md](stack/dodo-payments.md)           | Dodo Payments — checkout, webhooks, tier enforcement, UI patterns   |
+| [stack/fumadocs.md](stack/fumadocs.md)                     | Fumadocs — docs framework setup, `.source/` fix, gotchas            |
 
 ## Templates
 
