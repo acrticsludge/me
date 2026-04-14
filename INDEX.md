@@ -18,6 +18,7 @@ Rules and conventions I follow on every project.
 | [practices/worker-patterns.md](practices/worker-patterns.md) | Stateless workers, per-service error isolation, polling loops, tier enforcement |
 | [practices/git-conventions.md](practices/git-conventions.md) | .gitignore patterns, commit style, branch naming, multi-AI file sync |
 | [practices/frontend-design.md](practices/frontend-design.md) | Anti-AI-slop design principles, ui-ux-pro-max + frontend-design skill workflow |
+| [practices/vercel-middleware.md](practices/vercel-middleware.md) | Matcher config required — no matcher = invocation explosion + Fluid CPU charges |
 
 ---
 
