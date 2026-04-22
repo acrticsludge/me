@@ -73,7 +73,7 @@ How I use the AI and graph tooling.
 | File | What's in it |
 |------|-------------|
 | [tools/graphify-workflow.md](tools/graphify-workflow.md) | When/how to run graphify, hook setup, reading outputs, Windows fix |
-| [tools/code-review-graph.md](tools/code-review-graph.md) | MCP tools reference, query patterns, setup, when to fall back to file tools |
+| [tools/code-review-graph.md](tools/code-review-graph.md) | Graphify MCP tools reference, query patterns, setup, when to fall back to file tools |
 | [tools/ai-collaboration.md](tools/ai-collaboration.md) | Multi-AI sync (Claude/Cursor/Windsurf/Gemini), workflow by task type |
 
 ---
@@ -82,6 +82,6 @@ How I use the AI and graph tooling.
 
 1. Copy [templates/claude-md-template.md](templates/claude-md-template.md) → `CLAUDE.md` and fill it in
 2. Copy [templates/gitignore-nextjs.md](templates/gitignore-nextjs.md) → `.gitignore`
-3. Copy [tools/code-review-graph.md](tools/code-review-graph.md) → add the MCP block to CLAUDE.md
+3. Copy [tools/code-review-graph.md](tools/code-review-graph.md) → add the graphify MCP block to CLAUDE.md
 4. Run `/graphify` after the first commit to build the knowledge graph
 5. Run the relevant [audits/](audits/) checklists before launch

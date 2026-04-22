@@ -31,7 +31,7 @@ Every project's AI config file should contain:
 4. **Database schema** — table names, key columns, relationships
 5. **Key rules** — the non-negotiables (TypeScript, RLS, never log keys, etc.)
 6. **Project structure** — folder layout
-7. **MCP tools** (Claude-specific) — code-review-graph instructions
+7. **MCP tools** (Claude-specific) — graphify instructions
 
 ## Claude-Specific: Memory System
 
@@ -42,7 +42,7 @@ Claude Code has a persistent memory system at `~/.claude/projects/<project>/memo
 
 Don't duplicate CLAUDE.md content in memory — memory is for things that aren't in the code or docs.
 
-## Claude-Specific: Graphify + Code Review Graph
+## Claude-Specific: Graphify
 
 Set up in `CLAUDE.md` with the MCP tools block. Other AI tools (Cursor, Windsurf) don't support MCP — they rely on file reading instead. This is fine; the graph is primarily a Claude workflow optimization.
 

@@ -71,7 +71,7 @@ Full index with descriptions: [INDEX.md](INDEX.md)
 | File                                                     | Topic                                                                      |
 | -------------------------------------------------------- | -------------------------------------------------------------------------- |
 | [tools/graphify-workflow.md](tools/graphify-workflow.md) | When/how to run graphify, hook setup, reading outputs                      |
-| [tools/code-review-graph.md](tools/code-review-graph.md) | MCP tools reference, query patterns, setup                                 |
+| [tools/code-review-graph.md](tools/code-review-graph.md) | Graphify MCP tools reference, query patterns, setup                        |
 | [tools/ai-collaboration.md](tools/ai-collaboration.md)   | Multi-AI sync (Claude / Cursor / Windsurf / Gemini), workflow by task type |
 
 ---
@@ -80,6 +80,6 @@ Full index with descriptions: [INDEX.md](INDEX.md)
 
 1. Copy [templates/claude-md-template.md](templates/claude-md-template.md) → `CLAUDE.md` and fill it in
 2. Copy [templates/gitignore-nextjs.md](templates/gitignore-nextjs.md) → `.gitignore`
-3. Add the MCP block from [tools/code-review-graph.md](tools/code-review-graph.md) to `CLAUDE.md`
+3. Add the graphify MCP block from [tools/code-review-graph.md](tools/code-review-graph.md) to `CLAUDE.md`
 4. Run `/graphify` after the first commit to build the knowledge graph
 5. Run the relevant [audits/](audits/) checklists before launch

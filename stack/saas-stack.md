@@ -38,7 +38,6 @@ Battle-tested choices for building SaaS products. Updated from Stackwatch (2025â
 | Tool | Purpose |
 |------|---------|
 | **graphify** | Build a knowledge graph of the codebase for architecture understanding and AI querying |
-| **code-review-graph MCP** | Auto-updating graph queried by Claude for impact analysis and code review |
 | **Biome / ESLint** | Linting and formatting |
 
 ---

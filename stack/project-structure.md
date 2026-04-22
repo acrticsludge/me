@@ -20,7 +20,7 @@ Standard layout for a Next.js SaaS with a polling worker.
   .cursorrules            # Same content for Cursor
   .windsurfrules          # Same content for Windsurf
   GEMINI.md               # Same content for Gemini
-  .mcp.json               # MCP server configuration (code-review-graph)
+  .mcp.json               # MCP server configuration (graphify)
   .gitignore
   package.json
   tsconfig.json

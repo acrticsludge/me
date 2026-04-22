@@ -1,6 +1,6 @@
-# Code Review Graph (MCP)
+# Graphify (MCP)
 
-The `code-review-graph` MCP server provides structural code intelligence inside Claude. Use it instead of Grep/Glob/Read for codebase exploration — it's faster and gives architectural context that file scanning cannot.
+Graphify is the primary tool for codebase exploration and code review. Use it instead of Grep/Glob/Read for understanding code structure — it's faster and gives architectural context that file scanning cannot.
 
 ---
 
@@ -10,9 +10,9 @@ In `.mcp.json` at the project root:
 ```json
 {
   "mcpServers": {
-    "code-review-graph": {
+    "graphify": {
       "command": "uvx",
-      "args": ["code-review-graph", "serve"],
+      "args": ["graphify", "serve"],
       "type": "stdio"
     }
   }
@@ -29,7 +29,7 @@ The graph updates automatically on file changes via the post-commit hook (instal
 // .claude/settings.json
 {
   "hooks": {
-    "PostToolUse": [{ "matcher": "Edit|Write|Bash", "hooks": [{ "type": "command", "command": "code-review-graph update --quiet" }] }]
+    "PostToolUse": [{ "matcher": "Edit|Write|Bash", "hooks": [{ "type": "command", "command": "graphify update --quiet" }] }]
   }
 }
 ```
