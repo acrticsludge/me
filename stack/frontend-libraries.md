@@ -145,6 +145,17 @@ npm install sonner
 - One-line usage: `toast.success("Saved!")`, `toast.error("Failed")`
 - Already styled for dark/light mode
 
+### react-hot-toast
+```bash
+npm install react-hot-toast
+```
+- Lightweight, customizable toasts
+- Wrap app in `<Toaster />`, call `toast()` anywhere
+- Built-in promise toasts: `toast.promise(fetch(...), { loading, success, error })`
+- Custom render support: `toast.custom(<MyComponent />)`
+
+**When to use:** Need promise-based toasts or custom toast UI. Sonner is simpler for basic use.
+
 ---
 
 ## Charts / Data Viz
@@ -184,7 +195,7 @@ npm install embla-carousel-react
 | Client data fetching | `@tanstack/react-query` |
 | Date formatting | `date-fns` |
 | Class merging | `clsx` + `tailwind-merge` |
-| Toasts | `sonner` |
+| Toasts | `sonner` or `react-hot-toast` |
 | Charts | `recharts` |
 | Carousels | `embla-carousel-react` |
 | Themes (dark mode) | `next-themes` |
