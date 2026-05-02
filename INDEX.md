@@ -75,13 +75,19 @@ How I use the AI and graph tooling.
 | [tools/graphify-workflow.md](tools/graphify-workflow.md) | When/how to run graphify, hook setup, reading outputs, Windows fix |
 | [tools/code-review-graph.md](tools/code-review-graph.md) | Graphify MCP tools reference, query patterns, setup, when to fall back to file tools |
 | [tools/ai-collaboration.md](tools/ai-collaboration.md) | Multi-AI sync (Claude/Cursor/Windsurf/Gemini), workflow by task type |
+| [tools/prompt.md](tools/prompt.md) | **Project overhaul prompt** (Part 1) + **CLAUDE.md standards block** (Part 2) — copy-paste into any project |
 
 ---
 
 ## How to Use This in a New Project
 
 1. Copy [templates/claude-md-template.md](templates/claude-md-template.md) → `CLAUDE.md` and fill it in
-2. Copy [templates/gitignore-nextjs.md](templates/gitignore-nextjs.md) → `.gitignore`
-3. Copy [tools/code-review-graph.md](tools/code-review-graph.md) → add the graphify MCP block to CLAUDE.md
-4. Run `/graphify` after the first commit to build the knowledge graph
-5. Run the relevant [audits/](audits/) checklists before launch
+2. Paste the **Part 2 block** from [tools/prompt.md](tools/prompt.md) into `CLAUDE.md` — enforces all standards on every AI edit
+3. Copy [templates/gitignore-nextjs.md](templates/gitignore-nextjs.md) → `.gitignore`
+4. Copy [tools/code-review-graph.md](tools/code-review-graph.md) → add the graphify MCP block to CLAUDE.md
+5. Run `/graphify` after the first commit to build the knowledge graph
+6. Run the relevant [audits/](audits/) checklists before launch
+
+## Overhauling an Existing Project
+
+Paste **Part 1** from [tools/prompt.md](tools/prompt.md) into Claude. It audits and fixes the whole codebase against these standards in one pass.
